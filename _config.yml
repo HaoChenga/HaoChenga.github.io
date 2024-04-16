@@ -189,7 +189,7 @@ latest_posts:
 # Markdown and syntax highlight
 highlighter: true
 markdown: kramdown
-highlighter: rouge
+#highlighter: rouge
 kramdown:
   input: GFM
   syntax_highlighter_opts:
