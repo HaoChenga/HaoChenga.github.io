@@ -9,7 +9,7 @@ profile:
   image: profile.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
-    <p>Do something intersting</p>
+    <p></p>
     <p></p>
     <p></p>
     <p></p>
