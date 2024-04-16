@@ -187,6 +187,7 @@ latest_posts:
 # -----------------------------------------------------------------------------
 
 # Markdown and syntax highlight
+highlighter: true
 markdown: kramdown
 highlighter: rouge
 kramdown:
