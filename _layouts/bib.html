@@ -3,7 +3,7 @@
 <!-- _layouts/bib.html -->
       <div class="row">
         <div class="col-sm-2 {% if entry.preview %}preview{% else %}abbr{% endif %}">
-          {%- if entry.teaser -%}
+          {%- if entry.preview -%}
           <img class="preview img-fluid z-depth-1" src="../assets/teaser/{{entry.preview}}">
           {%- endif -%}
         {%- if entry.abbr -%}
