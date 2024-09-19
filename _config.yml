@@ -6,7 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Haocheng
 middle_name: 
 last_name: Peng
-email: haocheng@zju.edu.cn
+email: haochengpeng@zju.edu.cn
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   My personal academic website. Based on [al-folio](https://github.com/alshedivat/al-folio) Jekyll theme.
 footer_text: >
