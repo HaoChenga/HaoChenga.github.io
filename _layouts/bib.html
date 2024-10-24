@@ -138,7 +138,7 @@
             <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
           {%- endif %}
           {%- if entry.html %}
-            <a href="{{ entry.html }}" class="btn btn-sm z-depth-0" role="button">HTML</a>
+            <a href="{{ entry.html }}" class="btn btn-sm z-depth-0" role="button">project page</a>
           {%- endif %}
           {%- if entry.pdf %}
             {% if entry.pdf contains '://' -%}
@@ -183,6 +183,12 @@
           {%- endif %}
           {%- if entry.website %}
             <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
+          {%- endif %}
+          {%- if entry.project_page %}
+            <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Project Page</a>
+          {%- endif %}
+          {%- if entry.paper %}
+            <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Paper</a>
           {%- endif %}
           </div>
           {% if site.badges %}
